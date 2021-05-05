@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.thedocruby.mimicraft;
 
 import net.fabricmc.api.ModInitializer;
 
