@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mimicraft:mimicream_block"
+    }
+  ],
+  "result": {
+    "item": "mimicraft:mimicream",
+    "count": 9
+  }
+}
