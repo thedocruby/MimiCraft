@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.thedocruby.mimicraft.MimiCraft"
+      "net.thedocruby.mimicraft.Mimicraft"
     ]
   },
   "mixins": [

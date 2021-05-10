@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "MimiCraftMixin"
+    "MimicraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1
