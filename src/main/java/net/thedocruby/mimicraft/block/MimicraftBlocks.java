@@ -14,7 +14,7 @@ public class MimicraftBlocks {
             FabricBlockSettings
                     .of(Material.ORGANIC_PRODUCT)
                     .strength(0.2f, 2.5f)
-                    .jumpVelocityMultiplier(0.5f)
+                    .jumpVelocityMultiplier(0.2f)
                     .slipperiness(1.2f)
                     .sounds(BlockSoundGroup.SLIME)
     );

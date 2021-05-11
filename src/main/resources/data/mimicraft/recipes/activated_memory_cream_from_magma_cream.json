@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "activated_memory_cream",
+  "ingredients": [
+    {
+      "item": "mimicraft:mimicream"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "result": {
+    "item": "mimicraft:activated_memory_cream",
+    "count": 2
+  }
+}
