@@ -13,6 +13,7 @@ public class MimicreamBlock extends TransparentBlock {
         super(settings);
     }
 
+    @Override
     public void onLandedUpon(World world, BlockPos pos, Entity entity, float distance) {
         if (entity.bypassesLandingEffects()) {
             super.onLandedUpon(world, pos, entity, distance);
@@ -21,6 +22,7 @@ public class MimicreamBlock extends TransparentBlock {
         }
     }
 
+    @Override
     public void onEntityLand(BlockView world, Entity entity) {
         if (entity.bypassesLandingEffects()) {
             super.onEntityLand(world, entity);
@@ -37,6 +39,7 @@ public class MimicreamBlock extends TransparentBlock {
         }
     }
 
+    @Override
     public void onSteppedOn(World world, BlockPos pos, Entity entity) {
         double d = Math.abs(entity.getVelocity().y);
         if (d < 0.1D && !entity.bypassesSteppingEffects()) {

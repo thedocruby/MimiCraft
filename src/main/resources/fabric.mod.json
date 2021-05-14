@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.thedocruby.mimicraft.Mimicraft"
+    ],
+    "client": [
+      "net.thedocruby.mimicraft.MimicraftClient"
     ]
   },
   "mixins": [
