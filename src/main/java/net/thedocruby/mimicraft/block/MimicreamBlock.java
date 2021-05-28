@@ -1,16 +1,27 @@
 package net.thedocruby.mimicraft.block;
 
+import net.fabricmc.fabric.api.block.entity.BlockEntityClientSerializable;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockEntityProvider;
 import net.minecraft.block.TransparentBlock;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import net.thedocruby.mimicraft.block.entity.MimicreamBlockEntity;
+import net.thedocruby.mimicraft.item.Mimicream;
 
-public class MimicreamBlock extends TransparentBlock {
+public class MimicreamBlock extends Block implements BlockEntityProvider {
     public MimicreamBlock(Settings settings) {
         super(settings);
+    }
+
+    @Override
+    public BlockEntity createBlockEntity(BlockView blockView) {
+        return new MimicreamBlockEntity();
     }
 
     @Override
